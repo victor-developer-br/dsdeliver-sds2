@@ -6,3 +6,5 @@ export function fetchProducts()
 {
     return axios(`${API_URL}/products`)
 }
+
+export function fetchLocalMapBox()
